@@ -1,0 +1,13 @@
+{
+  "title": "Agentic AI OS: trace-replay prototype of a policy-governed LLM control plane",
+  "upload_type": "software",
+  "description": "Reference implementation, configuration, LLM response cache, decision audit logs and run-level results for the paper 'Agentic AI Operating Systems for Enterprise Autonomy: A Policy-Governed LLM Control Plane for Workload Scheduling and Failure Recovery'. Trace replay of the Google 2019 Cluster Sample comparing FIFO, a priority heuristic, the policy-governed control plane without an LLM, and the same control plane with a local Llama 3 8B model (Ollama).",
+  "creators": [
+    {"name": "Viswanathan, Venkatraman", "affiliation": "Novalink Solutions LLC", "orcid": "0009-0008-2889-7178"},
+    {"name": "Setty, Yashwanth", "affiliation": "Novalink Solutions LLC"}
+  ],
+  "license": "MIT",
+  "keywords": ["agentic AI", "large language models", "cluster scheduling", "failure recovery",
+               "policy-governed orchestration", "Google cluster trace", "Ollama", "Llama 3"],
+  "access_right": "open"
+}

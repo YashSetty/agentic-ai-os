@@ -1,0 +1,76 @@
+{
+  "started": "2026-11-17T17:55:12",
+  "config": {
+    "dataset_path": "~/.cache/kagglehub/datasets/derrickmwiti/google-2019-cluster-sample/versions/1/borg_traces_data.csv",
+    "cells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "windows_per_cell": 1,
+    "window_hours": 6,
+    "min_tasks": 150,
+    "load_levels": [
+      0.9
+    ],
+    "seeds": [
+      1
+    ],
+    "max_duration_s": 3600,
+    "heartbeat_s": 5,
+    "p_refail": 0.2,
+    "policy": {
+      "starvation_s": 1800,
+      "user_cpu_cap": 0.5,
+      "max_retries": 3
+    },
+    "llm": {
+      "model": "llama3:latest",
+      "host": "http://localhost:11434",
+      "temperature": 0,
+      "seed": 42,
+      "num_ctx": 2048,
+      "timeout_s": 180,
+      "max_candidates": 20,
+      "decision_latency": "measured",
+      "runtime_hint": false,
+      "num_predict": 192
+    }
+  },
+  "strategies": [
+    "fifo",
+    "priority",
+    "agentic-nollm",
+    "agentic"
+  ],
+  "dataset": {
+    "path": "~/.cache/kagglehub/datasets/derrickmwiti/google-2019-cluster-sample/versions/1/borg_traces_data.csv",
+    "sha256": "c3362a78555b7bd10d27a693da4e4c7230ac323359a5bfe0e75340c27b416b0d",
+    "raw_rows": 405894,
+    "tasks_after_cleaning": 191093
+  },
+  "llm_model": {
+    "name": "llama3:latest",
+    "digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "parent_model": "",
+    "format": "gguf",
+    "family": "llama",
+    "families": [
+      "llama"
+    ],
+    "parameter_size": "8.0B",
+    "quantization_level": "Q4_0",
+    "context_length": 8192,
+    "embedding_length": 4096,
+    "runner": "ggml"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3"
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.lock
+# Only the results reported in the paper are versioned.
+results/*
+!results/medium/

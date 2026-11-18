@@ -1,0 +1,6 @@
+# Versions used for the reported results
+numpy>=1.24        # 2.4.6
+pandas>=2.0        # 2.3.3
+matplotlib>=3.7    # 3.11.2 (analyze.py)
+tabulate>=0.9      # 0.10.0 (analyze.py markdown tables)
+kagglehub>=0.3     # dataset download only

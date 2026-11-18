@@ -1,0 +1,44 @@
+{
+  "dataset_path": "~/.cache/kagglehub/datasets/derrickmwiti/google-2019-cluster-sample/versions/1/borg_traces_data.csv",
+  "cells": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "windows_per_cell": 1,
+  "window_hours": 6,
+  "min_tasks": 150,
+  "load_levels": [
+    0.7,
+    0.9,
+    1.1
+  ],
+  "seeds": [
+    1
+  ],
+  "max_duration_s": 3600,
+  "heartbeat_s": 5,
+  "p_refail": 0.2,
+  "policy": {
+    "starvation_s": 1800,
+    "user_cpu_cap": 0.5,
+    "max_retries": 3
+  },
+  "llm": {
+    "model": "llama3:latest",
+    "host": "http://localhost:11434",
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 2048,
+    "timeout_s": 180,
+    "max_candidates": 20,
+    "decision_latency": "measured",
+    "runtime_hint": false,
+    "num_predict": 192
+  }
+}

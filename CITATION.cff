@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "Agentic AI OS: trace-replay prototype of a policy-governed LLM control plane"
+type: software
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+authors:
+  - family-names: Viswanathan
+    given-names: Venkatraman
+    orcid: "https://orcid.org/0009-0008-2889-7178"
+  - family-names: Setty
+    given-names: Yashwanth
+keywords:
+  - agentic AI
+  - large language models
+  - cluster scheduling
+  - failure recovery
+  - policy-governed orchestration
+  - Google cluster trace

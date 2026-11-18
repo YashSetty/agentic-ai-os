@@ -1,0 +1,677 @@
+{"t": 1189.3221619999968, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756119493640-316", "backfill"]]}
+{"t": 3227.463989000069, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-669", "backfill"]]}
+{"t": 3392.463989000069, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["710255342622-10334", "backfill"]]}
+{"t": 3443.3455285853956, "type": "recovery", "task": "710255342622-10334", "retries": 0, "decision": "retry"}
+{"t": 3443.3455285853956, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["710255342622-10334", "backfill"]]}
+{"t": 3743.3455285853956, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9835", "backfill"]]}
+{"t": 4011.5744467691, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6913", "backfill"]]}
+{"t": 4016.5744467691, "type": "recovery", "task": "756094638917-9835", "retries": 0, "decision": "retry"}
+{"t": 4186.836436303183, "type": "decision", "n_candidates": 2, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9835", "backfill"]]}
+{"t": 4191.836436303183, "type": "recovery", "task": "756094638917-6913", "retries": 0, "decision": "retry"}
+{"t": 4486.836436303183, "type": "decision", "n_candidates": 8, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6913", "backfill"]]}
+{"t": 4551.701793000102, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-4242", "backfill"]]}
+{"t": 4553.503923000069, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["147074738457-1813", "backfill"]]}
+{"t": 4556.031916999957, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["348792154279-19", "backfill"]]}
+{"t": 4624.7779821440945, "type": "recovery", "task": "147074738457-1813", "retries": 0, "decision": "retry"}
+{"t": 4624.7779821440945, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["147074738457-1813", "backfill"]]}
+{"t": 4786.836436303183, "type": "decision", "n_candidates": 19, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8972", "backfill"]]}
+{"t": 4796.347917093853, "type": "recovery", "task": "348792154279-19", "retries": 0, "decision": "retry"}
+{"t": 4796.347917093853, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["348792154279-19", "backfill"]]}
+{"t": 4868.383628949274, "type": "decision", "n_candidates": 18, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5510", "backfill"]]}
+{"t": 4873.383628949274, "type": "recovery", "task": "756094638917-8972", "retries": 0, "decision": "retry"}
+{"t": 5083.40963961973, "type": "decision", "n_candidates": 25, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8972", "backfill"]]}
+{"t": 5088.40963961973, "type": "recovery", "task": "756094638917-5510", "retries": 0, "decision": "retry"}
+{"t": 5383.40963961973, "type": "decision", "n_candidates": 33, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5510", "backfill"]]}
+{"t": 5491.3296670001, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-2623", "backfill"]]}
+{"t": 5491.425073999912, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["348792154279-1980", "backfill"]]}
+{"t": 5491.746003000066, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["348792154279-3257", "backfill"]]}
+{"t": 5534.000642489372, "type": "recovery", "task": "128073966478-2623", "retries": 0, "decision": "retry"}
+{"t": 5534.000642489372, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-2623", "backfill"]]}
+{"t": 5683.40963961973, "type": "decision", "n_candidates": 39, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2046", "backfill"]]}
+{"t": 5775.150392603229, "type": "decision", "n_candidates": 39, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7456", "backfill"]]}
+{"t": 5780.150392603229, "type": "recovery", "task": "756094638917-2046", "retries": 0, "decision": "retry"}
+{"t": 5791.425073999912, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-3437", "backfill"]]}
+{"t": 5856.12215128762, "type": "recovery", "task": "128073966478-3437", "retries": 0, "decision": "retry"}
+{"t": 5856.12215128762, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-3437", "backfill"]]}
+{"t": 5935.540898548575, "type": "decision", "n_candidates": 46, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2046", "backfill"]]}
+{"t": 5940.540898548575, "type": "recovery", "task": "756094638917-7456", "retries": 0, "decision": "retry"}
+{"t": 6235.540898548575, "type": "decision", "n_candidates": 54, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4170", "backfill"]]}
+{"t": 6460.62386437352, "type": "decision", "n_candidates": 59, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3904", "backfill"]]}
+{"t": 6465.62386437352, "type": "recovery", "task": "756094638917-4170", "retries": 0, "decision": "retry"}
+{"t": 6723.730432525847, "type": "decision", "n_candidates": 65, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6272", "backfill"]]}
+{"t": 6728.730432525847, "type": "recovery", "task": "756094638917-3904", "retries": 0, "decision": "retry"}
+{"t": 6767.078810608432, "type": "decision", "n_candidates": 65, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1337", "backfill"]]}
+{"t": 6772.078810608432, "type": "recovery", "task": "756094638917-6272", "retries": 0, "decision": "retry"}
+{"t": 6973.034591904454, "type": "decision", "n_candidates": 70, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7367", "backfill"]]}
+{"t": 6978.034591904454, "type": "recovery", "task": "756094638917-1337", "retries": 0, "decision": "retry"}
+{"t": 7067.277460000012, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756139492320-392", "backfill"]]}
+{"t": 7204.635961092947, "type": "decision", "n_candidates": 77, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4779", "backfill"]]}
+{"t": 7209.635961092947, "type": "recovery", "task": "756094638917-7367", "retries": 0, "decision": "retry"}
+{"t": 7265.77513515598, "type": "decision", "n_candidates": 77, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3780", "backfill"]]}
+{"t": 7270.77513515598, "type": "recovery", "task": "756094638917-4779", "retries": 0, "decision": "retry"}
+{"t": 7367.277460000012, "type": "decision", "n_candidates": 3, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756139492320-2857", "backfill"]]}
+{"t": 7424.894407975171, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10482", "backfill"]]}
+{"t": 7429.894407975171, "type": "recovery", "task": "756094638917-3780", "retries": 0, "decision": "retry"}
+{"t": 7564.06895267671, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-881", "backfill"]]}
+{"t": 7569.06895267671, "type": "recovery", "task": "756094638917-10482", "retries": 0, "decision": "retry"}
+{"t": 7667.277460000012, "type": "decision", "n_candidates": 2, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756139492320-1887", "backfill"]]}
+{"t": 7720.052579610275, "type": "decision", "n_candidates": 75, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-848", "backfill"]]}
+{"t": 7725.052579610275, "type": "recovery", "task": "756094638917-881", "retries": 0, "decision": "retry"}
+{"t": 7893.85428537865, "type": "decision", "n_candidates": 75, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7456", "backfill"]]}
+{"t": 7898.85428537865, "type": "recovery", "task": "756094638917-848", "retries": 0, "decision": "retry"}
+{"t": 7967.277460000012, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756139492320-2766", "backfill"]]}
+{"t": 8193.85428537865, "type": "decision", "n_candidates": 74, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3137", "backfill"]]}
+{"t": 8257.470106139315, "type": "decision", "n_candidates": 73, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1570", "backfill"]]}
+{"t": 8262.470106139315, "type": "recovery", "task": "756094638917-3137", "retries": 0, "decision": "retry"}
+{"t": 8502.362197107872, "type": "decision", "n_candidates": 87, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4170", "backfill"]]}
+{"t": 8507.362197107872, "type": "recovery", "task": "756094638917-1570", "retries": 0, "decision": "retry"}
+{"t": 8802.362197107872, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3904", "backfill"]]}
+{"t": 9102.362197107872, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6272", "backfill"]]}
+{"t": 9402.362197107872, "type": "decision", "n_candidates": 92, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1337", "backfill"]]}
+{"t": 9702.362197107872, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7367", "backfill"]]}
+{"t": 10002.362197107872, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4779", "backfill"]]}
+{"t": 10125.861182130544, "type": "decision", "n_candidates": 94, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3780", "backfill"]]}
+{"t": 10130.861182130544, "type": "recovery", "task": "756094638917-4779", "retries": 1, "decision": "retry"}
+{"t": 10425.861182130544, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10482", "backfill"]]}
+{"t": 10725.861182130544, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-881", "backfill"]]}
+{"t": 11025.861182130544, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-848", "backfill"]]}
+{"t": 11118.797684402483, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3137", "backfill"]]}
+{"t": 11123.797684402483, "type": "recovery", "task": "756094638917-848", "retries": 1, "decision": "retry"}
+{"t": 11418.797684402483, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1570", "backfill"]]}
+{"t": 11718.797684402483, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-1082", "backfill"]]}
+{"t": 11883.797684402483, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6073", "backfill"], ["128073966478-5246", "backfill"]]}
+{"t": 12021.515593860162, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4779", "backfill"]]}
+{"t": 12026.515593860162, "type": "recovery", "task": "756094638917-6073", "retries": 0, "decision": "retry"}
+{"t": 12060.23987715718, "type": "recovery", "task": "128073966478-5246", "retries": 0, "decision": "retry"}
+{"t": 12060.23987715718, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-5246", "backfill"]]}
+{"t": 12104.365505584572, "type": "recovery", "task": "128073966478-5246", "retries": 1, "decision": "retry"}
+{"t": 12104.365505584572, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["128073966478-5246", "backfill"]]}
+{"t": 12321.515593860162, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756147201286-0", "backfill"]]}
+{"t": 12325.43292589634, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5794", "backfill"]]}
+{"t": 12398.770162632145, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8548", "backfill"]]}
+{"t": 12403.770162632145, "type": "recovery", "task": "756094638917-5794", "retries": 0, "decision": "retry"}
+{"t": 12651.197169734618, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2059", "backfill"]]}
+{"t": 12656.197169734618, "type": "recovery", "task": "756094638917-8548", "retries": 0, "decision": "retry"}
+{"t": 12832.18611377885, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8107", "backfill"]]}
+{"t": 12837.18611377885, "type": "recovery", "task": "756094638917-2059", "retries": 0, "decision": "retry"}
+{"t": 12928.181938208732, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-848", "backfill"]]}
+{"t": 12933.181938208732, "type": "recovery", "task": "756094638917-8107", "retries": 0, "decision": "retry"}
+{"t": 13228.181938208732, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4614", "backfill"]]}
+{"t": 13269.318056962944, "type": "decision", "n_candidates": 94, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8488", "backfill"]]}
+{"t": 13274.318056962944, "type": "recovery", "task": "756094638917-4614", "retries": 0, "decision": "retry"}
+{"t": 13533.071767891912, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9224", "backfill"]]}
+{"t": 13538.071767891912, "type": "recovery", "task": "756094638917-8488", "retries": 0, "decision": "retry"}
+{"t": 13684.699839397448, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7337", "backfill"]]}
+{"t": 13689.699839397448, "type": "recovery", "task": "756094638917-9224", "retries": 0, "decision": "retry"}
+{"t": 13787.204400451137, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9564", "backfill"]]}
+{"t": 13792.204400451137, "type": "recovery", "task": "756094638917-7337", "retries": 0, "decision": "retry"}
+{"t": 13842.424414942441, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6073", "backfill"]]}
+{"t": 13847.424414942441, "type": "recovery", "task": "756094638917-9564", "retries": 0, "decision": "retry"}
+{"t": 14142.424414942441, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6554", "backfill"]]}
+{"t": 14231.400172292368, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5794", "backfill"]]}
+{"t": 14236.400172292368, "type": "recovery", "task": "756094638917-6554", "retries": 0, "decision": "retry"}
+{"t": 14411.612565216497, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5915", "backfill"]]}
+{"t": 14416.612565216497, "type": "recovery", "task": "756094638917-5794", "retries": 1, "decision": "retry"}
+{"t": 14590.672978646377, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8548", "backfill"]]}
+{"t": 14595.672978646377, "type": "recovery", "task": "756094638917-5915", "retries": 0, "decision": "retry"}
+{"t": 14668.278103696583, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2059", "backfill"]]}
+{"t": 14673.278103696583, "type": "recovery", "task": "756094638917-8548", "retries": 1, "decision": "retry"}
+{"t": 14968.278103696583, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8107", "backfill"]]}
+{"t": 15131.541641759077, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4614", "backfill"]]}
+{"t": 15136.541641759077, "type": "recovery", "task": "756094638917-8107", "retries": 1, "decision": "retry"}
+{"t": 15334.030611000024, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1733", "backfill"]]}
+{"t": 15335.030611000024, "type": "decision", "n_candidates": 28, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-636", "backfill"]]}
+{"t": 15336.030611000024, "type": "decision", "n_candidates": 62, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-118", "backfill"]]}
+{"t": 15337.030611000024, "type": "decision", "n_candidates": 86, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-122", "backfill"]]}
+{"t": 15338.030611000024, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1609", "backfill"]]}
+{"t": 15339.030611000024, "type": "decision", "n_candidates": 90, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-546", "backfill"]]}
+{"t": 15340.030611000024, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-720", "backfill"]]}
+{"t": 15341.030611000024, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2983", "backfill"]]}
+{"t": 15342.030611000024, "type": "decision", "n_candidates": 87, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-525", "backfill"]]}
+{"t": 15343.030611000024, "type": "decision", "n_candidates": 93, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3346", "backfill"]]}
+{"t": 15344.030611000024, "type": "decision", "n_candidates": 104, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-364", "backfill"]]}
+{"t": 15345.030611000024, "type": "decision", "n_candidates": 131, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2539", "backfill"]]}
+{"t": 15346.030611000024, "type": "decision", "n_candidates": 135, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3087", "backfill"]]}
+{"t": 15347.030611000024, "type": "decision", "n_candidates": 140, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-899", "backfill"]]}
+{"t": 15348.030611000024, "type": "decision", "n_candidates": 142, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1953", "backfill"]]}
+{"t": 15349.030611000024, "type": "decision", "n_candidates": 141, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3376", "backfill"]]}
+{"t": 15350.030611000024, "type": "decision", "n_candidates": 140, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3171", "backfill"]]}
+{"t": 15351.030611000024, "type": "decision", "n_candidates": 139, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3190", "backfill"]]}
+{"t": 15352.030611000024, "type": "decision", "n_candidates": 138, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-165", "backfill"]]}
+{"t": 15353.030611000024, "type": "decision", "n_candidates": 137, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-23", "backfill"]]}
+{"t": 15354.030611000024, "type": "decision", "n_candidates": 136, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2953", "backfill"]]}
+{"t": 15355.030611000024, "type": "decision", "n_candidates": 135, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1319", "backfill"]]}
+{"t": 15356.030611000024, "type": "decision", "n_candidates": 134, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2083", "backfill"]]}
+{"t": 15357.030611000024, "type": "decision", "n_candidates": 133, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3575", "backfill"]]}
+{"t": 15358.030611000024, "type": "decision", "n_candidates": 140, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1538", "backfill"]]}
+{"t": 15359.030611000024, "type": "decision", "n_candidates": 146, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-231", "backfill"]]}
+{"t": 15360.030611000024, "type": "decision", "n_candidates": 151, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2810", "backfill"]]}
+{"t": 15361.030611000024, "type": "decision", "n_candidates": 153, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3695", "backfill"]]}
+{"t": 15362.030611000024, "type": "decision", "n_candidates": 152, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-824", "backfill"]]}
+{"t": 15363.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1267", "backfill"]]}
+{"t": 15364.030611000024, "type": "decision", "n_candidates": 161, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2088", "backfill"]]}
+{"t": 15365.030611000024, "type": "decision", "n_candidates": 162, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3219", "backfill"]]}
+{"t": 15366.030611000024, "type": "decision", "n_candidates": 162, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1284", "backfill"]]}
+{"t": 15367.030611000024, "type": "decision", "n_candidates": 162, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2772", "backfill"]]}
+{"t": 15368.030611000024, "type": "decision", "n_candidates": 161, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1643", "backfill"]]}
+{"t": 15369.030611000024, "type": "decision", "n_candidates": 160, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1856", "backfill"]]}
+{"t": 15370.030611000024, "type": "decision", "n_candidates": 163, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2144", "backfill"]]}
+{"t": 15371.030611000024, "type": "decision", "n_candidates": 164, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-96", "backfill"]]}
+{"t": 15372.030611000024, "type": "decision", "n_candidates": 164, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1919", "backfill"]]}
+{"t": 15373.030611000024, "type": "decision", "n_candidates": 164, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2087", "backfill"]]}
+{"t": 15374.030611000024, "type": "decision", "n_candidates": 166, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1059", "backfill"]]}
+{"t": 15375.030611000024, "type": "decision", "n_candidates": 168, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2611", "backfill"]]}
+{"t": 15376.030611000024, "type": "decision", "n_candidates": 169, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1743", "backfill"]]}
+{"t": 15377.030611000024, "type": "decision", "n_candidates": 170, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2825", "backfill"]]}
+{"t": 15378.030611000024, "type": "decision", "n_candidates": 169, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-927", "backfill"]]}
+{"t": 15379.030611000024, "type": "decision", "n_candidates": 168, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2800", "backfill"]]}
+{"t": 15380.030611000024, "type": "decision", "n_candidates": 167, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1892", "backfill"]]}
+{"t": 15381.030611000024, "type": "decision", "n_candidates": 166, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2981", "backfill"]]}
+{"t": 15382.030611000024, "type": "decision", "n_candidates": 165, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3361", "backfill"]]}
+{"t": 15383.030611000024, "type": "decision", "n_candidates": 164, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3043", "backfill"]]}
+{"t": 15384.030611000024, "type": "decision", "n_candidates": 163, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1077", "backfill"]]}
+{"t": 15385.030611000024, "type": "decision", "n_candidates": 164, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3754", "backfill"]]}
+{"t": 15386.030611000024, "type": "decision", "n_candidates": 163, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-592", "backfill"]]}
+{"t": 15387.030611000024, "type": "decision", "n_candidates": 162, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2229", "backfill"]]}
+{"t": 15388.030611000024, "type": "decision", "n_candidates": 161, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3220", "backfill"]]}
+{"t": 15389.030611000024, "type": "decision", "n_candidates": 160, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3746", "backfill"]]}
+{"t": 15390.030611000024, "type": "decision", "n_candidates": 159, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2620", "backfill"]]}
+{"t": 15391.030611000024, "type": "decision", "n_candidates": 158, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-818", "backfill"]]}
+{"t": 15392.030611000024, "type": "decision", "n_candidates": 157, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-821", "backfill"]]}
+{"t": 15393.030611000024, "type": "decision", "n_candidates": 156, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1485", "backfill"]]}
+{"t": 15394.030611000024, "type": "decision", "n_candidates": 156, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1629", "backfill"]]}
+{"t": 15395.030611000024, "type": "decision", "n_candidates": 160, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2627", "backfill"]]}
+{"t": 15396.030611000024, "type": "decision", "n_candidates": 160, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1114", "backfill"]]}
+{"t": 15397.030611000024, "type": "decision", "n_candidates": 159, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1177", "backfill"]]}
+{"t": 15398.030611000024, "type": "decision", "n_candidates": 158, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1713", "backfill"]]}
+{"t": 15399.030611000024, "type": "decision", "n_candidates": 157, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3006", "backfill"]]}
+{"t": 15400.030611000024, "type": "decision", "n_candidates": 156, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2855", "backfill"]]}
+{"t": 15401.030611000024, "type": "decision", "n_candidates": 155, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1078", "backfill"]]}
+{"t": 15402.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-793", "backfill"]]}
+{"t": 15403.030611000024, "type": "decision", "n_candidates": 153, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-562", "backfill"]]}
+{"t": 15404.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-694", "backfill"]]}
+{"t": 15405.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3316", "backfill"]]}
+{"t": 15406.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-283", "backfill"]]}
+{"t": 15407.030611000024, "type": "decision", "n_candidates": 154, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-896", "backfill"]]}
+{"t": 15408.030611000024, "type": "decision", "n_candidates": 153, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-926", "backfill"]]}
+{"t": 15409.030611000024, "type": "decision", "n_candidates": 152, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2540", "backfill"]]}
+{"t": 15410.030611000024, "type": "decision", "n_candidates": 151, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1820", "backfill"]]}
+{"t": 15411.030611000024, "type": "decision", "n_candidates": 150, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-666", "backfill"]]}
+{"t": 15412.030611000024, "type": "decision", "n_candidates": 149, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2948", "backfill"]]}
+{"t": 15413.030611000024, "type": "decision", "n_candidates": 149, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2945", "backfill"]]}
+{"t": 15414.030611000024, "type": "decision", "n_candidates": 148, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2520", "backfill"]]}
+{"t": 15415.030611000024, "type": "decision", "n_candidates": 148, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2913", "backfill"]]}
+{"t": 15416.030611000024, "type": "decision", "n_candidates": 147, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2238", "backfill"]]}
+{"t": 15417.030611000024, "type": "decision", "n_candidates": 146, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-854", "backfill"]]}
+{"t": 15418.030611000024, "type": "decision", "n_candidates": 145, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1796", "backfill"]]}
+{"t": 15419.030611000024, "type": "decision", "n_candidates": 144, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-460", "backfill"]]}
+{"t": 15420.030611000024, "type": "decision", "n_candidates": 143, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-271", "backfill"]]}
+{"t": 15421.030611000024, "type": "decision", "n_candidates": 142, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2576", "backfill"]]}
+{"t": 15422.030611000024, "type": "decision", "n_candidates": 141, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2487", "backfill"]]}
+{"t": 15423.030611000024, "type": "decision", "n_candidates": 141, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-953", "backfill"]]}
+{"t": 15424.030611000024, "type": "decision", "n_candidates": 141, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-39", "backfill"]]}
+{"t": 15425.030611000024, "type": "decision", "n_candidates": 141, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-566", "backfill"]]}
+{"t": 15426.030611000024, "type": "decision", "n_candidates": 140, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3050", "backfill"]]}
+{"t": 15427.030611000024, "type": "decision", "n_candidates": 139, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2011", "backfill"]]}
+{"t": 15428.030611000024, "type": "decision", "n_candidates": 138, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2901", "backfill"]]}
+{"t": 15429.030611000024, "type": "decision", "n_candidates": 137, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-707", "backfill"]]}
+{"t": 15430.030611000024, "type": "decision", "n_candidates": 136, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2420", "backfill"]]}
+{"t": 15431.030611000024, "type": "decision", "n_candidates": 135, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2257", "backfill"]]}
+{"t": 15431.541641759077, "type": "decision", "n_candidates": 229, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8488", "backfill"]]}
+{"t": 15432.030611000024, "type": "decision", "n_candidates": 134, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3333", "backfill"]]}
+{"t": 15433.030611000024, "type": "decision", "n_candidates": 135, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1113", "backfill"]]}
+{"t": 15434.030611000024, "type": "decision", "n_candidates": 134, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2463", "backfill"]]}
+{"t": 15435.030611000024, "type": "decision", "n_candidates": 135, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3530", "backfill"]]}
+{"t": 15436.030611000024, "type": "decision", "n_candidates": 134, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3392", "backfill"]]}
+{"t": 15437.030611000024, "type": "decision", "n_candidates": 133, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2201", "backfill"]]}
+{"t": 15438.030611000024, "type": "decision", "n_candidates": 132, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-552", "backfill"]]}
+{"t": 15439.030611000024, "type": "decision", "n_candidates": 131, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3027", "backfill"]]}
+{"t": 15440.030611000024, "type": "decision", "n_candidates": 130, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2700", "backfill"]]}
+{"t": 15441.030611000024, "type": "decision", "n_candidates": 129, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-148", "backfill"]]}
+{"t": 15442.030611000024, "type": "decision", "n_candidates": 128, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2762", "backfill"]]}
+{"t": 15443.030611000024, "type": "decision", "n_candidates": 127, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2040", "backfill"]]}
+{"t": 15444.030611000024, "type": "decision", "n_candidates": 126, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2835", "backfill"]]}
+{"t": 15445.030611000024, "type": "decision", "n_candidates": 125, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3472", "backfill"]]}
+{"t": 15446.030611000024, "type": "decision", "n_candidates": 125, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1875", "backfill"]]}
+{"t": 15447.030611000024, "type": "decision", "n_candidates": 124, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2639", "backfill"]]}
+{"t": 15448.030611000024, "type": "decision", "n_candidates": 123, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1541", "backfill"]]}
+{"t": 15449.030611000024, "type": "decision", "n_candidates": 122, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2158", "backfill"]]}
+{"t": 15450.030611000024, "type": "decision", "n_candidates": 121, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1789", "backfill"]]}
+{"t": 15451.030611000024, "type": "decision", "n_candidates": 120, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3377", "backfill"]]}
+{"t": 15452.030611000024, "type": "decision", "n_candidates": 119, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3398", "backfill"]]}
+{"t": 15453.030611000024, "type": "decision", "n_candidates": 119, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2253", "backfill"]]}
+{"t": 15454.030611000024, "type": "decision", "n_candidates": 119, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2770", "backfill"]]}
+{"t": 15455.030611000024, "type": "decision", "n_candidates": 118, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-626", "backfill"]]}
+{"t": 15456.030611000024, "type": "decision", "n_candidates": 117, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1081", "backfill"]]}
+{"t": 15457.030611000024, "type": "decision", "n_candidates": 116, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1542", "backfill"]]}
+{"t": 15458.030611000024, "type": "decision", "n_candidates": 115, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1801", "backfill"]]}
+{"t": 15459.030611000024, "type": "decision", "n_candidates": 114, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2064", "backfill"]]}
+{"t": 15460.030611000024, "type": "decision", "n_candidates": 113, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3174", "backfill"]]}
+{"t": 15461.030611000024, "type": "decision", "n_candidates": 112, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-472", "backfill"]]}
+{"t": 15462.030611000024, "type": "decision", "n_candidates": 111, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-455", "backfill"]]}
+{"t": 15463.030611000024, "type": "decision", "n_candidates": 110, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1910", "backfill"]]}
+{"t": 15464.030611000024, "type": "decision", "n_candidates": 110, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-88", "backfill"]]}
+{"t": 15465.030611000024, "type": "decision", "n_candidates": 109, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3740", "backfill"]]}
+{"t": 15466.030611000024, "type": "decision", "n_candidates": 109, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1240", "backfill"]]}
+{"t": 15467.030611000024, "type": "decision", "n_candidates": 108, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-317", "backfill"]]}
+{"t": 15468.030611000024, "type": "decision", "n_candidates": 107, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-210", "backfill"]]}
+{"t": 15469.030611000024, "type": "decision", "n_candidates": 106, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1439", "backfill"]]}
+{"t": 15470.030611000024, "type": "decision", "n_candidates": 105, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1674", "backfill"]]}
+{"t": 15471.030611000024, "type": "decision", "n_candidates": 104, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2185", "backfill"]]}
+{"t": 15472.030611000024, "type": "decision", "n_candidates": 103, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-548", "backfill"]]}
+{"t": 15473.030611000024, "type": "decision", "n_candidates": 102, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1685", "backfill"]]}
+{"t": 15474.030611000024, "type": "decision", "n_candidates": 102, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-486", "backfill"]]}
+{"t": 15475.030611000024, "type": "decision", "n_candidates": 101, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2877", "backfill"]]}
+{"t": 15476.030611000024, "type": "decision", "n_candidates": 100, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1481", "backfill"]]}
+{"t": 15477.030611000024, "type": "decision", "n_candidates": 99, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2135", "backfill"]]}
+{"t": 15478.030611000024, "type": "decision", "n_candidates": 99, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1823", "backfill"]]}
+{"t": 15479.030611000024, "type": "decision", "n_candidates": 98, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-395", "backfill"]]}
+{"t": 15480.030611000024, "type": "decision", "n_candidates": 97, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1351", "backfill"]]}
+{"t": 15481.030611000024, "type": "decision", "n_candidates": 96, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1632", "backfill"]]}
+{"t": 15482.030611000024, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3421", "backfill"]]}
+{"t": 15483.030611000024, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3095", "backfill"]]}
+{"t": 15484.030611000024, "type": "decision", "n_candidates": 94, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2695", "backfill"]]}
+{"t": 15485.030611000024, "type": "decision", "n_candidates": 93, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-843", "backfill"]]}
+{"t": 15486.030611000024, "type": "decision", "n_candidates": 92, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1221", "backfill"]]}
+{"t": 15487.030611000024, "type": "decision", "n_candidates": 91, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1272", "backfill"]]}
+{"t": 15488.030611000024, "type": "decision", "n_candidates": 90, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1398", "backfill"]]}
+{"t": 15489.030611000024, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1402", "backfill"]]}
+{"t": 15490.030611000024, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1099", "backfill"]]}
+{"t": 15491.030611000024, "type": "decision", "n_candidates": 87, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-797", "backfill"]]}
+{"t": 15492.030611000024, "type": "decision", "n_candidates": 86, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2605", "backfill"]]}
+{"t": 15493.030611000024, "type": "decision", "n_candidates": 85, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2581", "backfill"]]}
+{"t": 15494.030611000024, "type": "decision", "n_candidates": 84, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3642", "backfill"]]}
+{"t": 15495.030611000024, "type": "decision", "n_candidates": 83, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1816", "backfill"]]}
+{"t": 15496.030611000024, "type": "decision", "n_candidates": 82, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-555", "backfill"]]}
+{"t": 15497.030611000024, "type": "decision", "n_candidates": 81, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1880", "backfill"]]}
+{"t": 15498.030611000024, "type": "decision", "n_candidates": 80, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2378", "backfill"]]}
+{"t": 15499.030611000024, "type": "decision", "n_candidates": 79, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2015", "backfill"]]}
+{"t": 15500.030611000024, "type": "decision", "n_candidates": 78, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2933", "backfill"]]}
+{"t": 15501.030611000024, "type": "decision", "n_candidates": 77, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2075", "backfill"]]}
+{"t": 15502.030611000024, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3378", "backfill"]]}
+{"t": 15503.030611000024, "type": "decision", "n_candidates": 75, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2584", "backfill"]]}
+{"t": 15504.030611000024, "type": "decision", "n_candidates": 74, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2252", "backfill"]]}
+{"t": 15505.030611000024, "type": "decision", "n_candidates": 73, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1183", "backfill"]]}
+{"t": 15506.030611000024, "type": "decision", "n_candidates": 72, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1634", "backfill"]]}
+{"t": 15507.030611000024, "type": "decision", "n_candidates": 72, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-226", "backfill"]]}
+{"t": 15508.030611000024, "type": "decision", "n_candidates": 71, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3483", "backfill"]]}
+{"t": 15509.030611000024, "type": "decision", "n_candidates": 70, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3467", "backfill"]]}
+{"t": 15510.030611000024, "type": "decision", "n_candidates": 69, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3469", "backfill"]]}
+{"t": 15511.030611000024, "type": "decision", "n_candidates": 68, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2905", "backfill"]]}
+{"t": 15512.030611000024, "type": "decision", "n_candidates": 67, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1126", "backfill"]]}
+{"t": 15513.030611000024, "type": "decision", "n_candidates": 66, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1206", "backfill"]]}
+{"t": 15514.030611000024, "type": "decision", "n_candidates": 65, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1037", "backfill"]]}
+{"t": 15515.030611000024, "type": "decision", "n_candidates": 64, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2633", "backfill"]]}
+{"t": 15516.030611000024, "type": "decision", "n_candidates": 63, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2255", "backfill"]]}
+{"t": 15517.030611000024, "type": "decision", "n_candidates": 62, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3670", "backfill"]]}
+{"t": 15518.030611000024, "type": "decision", "n_candidates": 61, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2721", "backfill"]]}
+{"t": 15519.030611000024, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-939", "backfill"]]}
+{"t": 15520.030611000024, "type": "decision", "n_candidates": 59, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3255", "backfill"]]}
+{"t": 15521.030611000024, "type": "decision", "n_candidates": 58, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3264", "backfill"]]}
+{"t": 15522.030611000024, "type": "decision", "n_candidates": 57, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-176", "backfill"]]}
+{"t": 15523.030611000024, "type": "decision", "n_candidates": 56, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1256", "backfill"]]}
+{"t": 15524.030611000024, "type": "decision", "n_candidates": 55, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1865", "backfill"]]}
+{"t": 15525.030611000024, "type": "decision", "n_candidates": 54, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2386", "backfill"]]}
+{"t": 15526.030611000024, "type": "decision", "n_candidates": 53, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-453", "backfill"]]}
+{"t": 15527.030611000024, "type": "decision", "n_candidates": 53, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2780", "backfill"]]}
+{"t": 15528.030611000024, "type": "decision", "n_candidates": 52, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-564", "backfill"]]}
+{"t": 15529.030611000024, "type": "decision", "n_candidates": 51, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2055", "backfill"]]}
+{"t": 15530.030611000024, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3742", "backfill"]]}
+{"t": 15531.030611000024, "type": "decision", "n_candidates": 49, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3203", "backfill"]]}
+{"t": 15532.030611000024, "type": "decision", "n_candidates": 48, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2756", "backfill"]]}
+{"t": 15533.030611000024, "type": "decision", "n_candidates": 47, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1633", "backfill"]]}
+{"t": 15534.030611000024, "type": "decision", "n_candidates": 46, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2090", "backfill"]]}
+{"t": 15535.030611000024, "type": "decision", "n_candidates": 45, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3405", "backfill"]]}
+{"t": 15536.030611000024, "type": "decision", "n_candidates": 44, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-917", "backfill"]]}
+{"t": 15537.030611000024, "type": "decision", "n_candidates": 43, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3476", "backfill"]]}
+{"t": 15538.030611000024, "type": "decision", "n_candidates": 42, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2456", "backfill"]]}
+{"t": 15539.030611000024, "type": "decision", "n_candidates": 41, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2755", "backfill"]]}
+{"t": 15540.030611000024, "type": "decision", "n_candidates": 40, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1957", "backfill"]]}
+{"t": 15541.030611000024, "type": "decision", "n_candidates": 39, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2324", "backfill"]]}
+{"t": 15542.030611000024, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-154", "backfill"]]}
+{"t": 15543.030611000024, "type": "decision", "n_candidates": 37, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1042", "backfill"]]}
+{"t": 15544.030611000024, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2804", "backfill"]]}
+{"t": 15545.030611000024, "type": "decision", "n_candidates": 35, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3447", "backfill"]]}
+{"t": 15546.030611000024, "type": "decision", "n_candidates": 34, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1121", "backfill"]]}
+{"t": 15547.030611000024, "type": "decision", "n_candidates": 33, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-376", "backfill"]]}
+{"t": 15548.030611000024, "type": "decision", "n_candidates": 32, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1748", "backfill"]]}
+{"t": 15549.030611000024, "type": "decision", "n_candidates": 31, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-594", "backfill"]]}
+{"t": 15550.030611000024, "type": "decision", "n_candidates": 30, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2223", "backfill"]]}
+{"t": 15551.030611000024, "type": "decision", "n_candidates": 29, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1626", "backfill"]]}
+{"t": 15552.030611000024, "type": "decision", "n_candidates": 28, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-363", "backfill"]]}
+{"t": 15553.030611000024, "type": "decision", "n_candidates": 27, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2528", "backfill"]]}
+{"t": 15554.030611000024, "type": "decision", "n_candidates": 26, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3055", "backfill"]]}
+{"t": 15555.030611000024, "type": "decision", "n_candidates": 25, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-103", "backfill"]]}
+{"t": 15556.030611000024, "type": "decision", "n_candidates": 24, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3108", "backfill"]]}
+{"t": 15557.030611000024, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-236", "backfill"]]}
+{"t": 15558.030611000024, "type": "decision", "n_candidates": 22, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1893", "backfill"]]}
+{"t": 15559.030611000024, "type": "decision", "n_candidates": 21, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2247", "backfill"]]}
+{"t": 15560.030611000024, "type": "decision", "n_candidates": 20, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1102", "backfill"]]}
+{"t": 15561.030611000024, "type": "decision", "n_candidates": 19, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2769", "backfill"]]}
+{"t": 15562.030611000024, "type": "decision", "n_candidates": 18, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2052", "backfill"]]}
+{"t": 15563.030611000024, "type": "decision", "n_candidates": 17, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3759", "backfill"]]}
+{"t": 15564.030611000024, "type": "decision", "n_candidates": 16, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3221", "backfill"]]}
+{"t": 15565.030611000024, "type": "decision", "n_candidates": 15, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3007", "backfill"]]}
+{"t": 15566.030611000024, "type": "decision", "n_candidates": 14, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1746", "backfill"]]}
+{"t": 15567.030611000024, "type": "decision", "n_candidates": 13, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2569", "backfill"]]}
+{"t": 15568.030611000024, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-539", "backfill"]]}
+{"t": 15569.030611000024, "type": "decision", "n_candidates": 11, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3357", "backfill"]]}
+{"t": 15570.030611000024, "type": "decision", "n_candidates": 10, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3735", "backfill"]]}
+{"t": 15571.030611000024, "type": "decision", "n_candidates": 9, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1687", "backfill"]]}
+{"t": 15572.030611000024, "type": "decision", "n_candidates": 8, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-602", "backfill"]]}
+{"t": 15573.030611000024, "type": "decision", "n_candidates": 7, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2648", "backfill"]]}
+{"t": 15574.030611000024, "type": "decision", "n_candidates": 6, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2686", "backfill"]]}
+{"t": 15575.030611000024, "type": "decision", "n_candidates": 5, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-1745", "backfill"]]}
+{"t": 15576.030611000024, "type": "decision", "n_candidates": 4, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3699", "backfill"]]}
+{"t": 15577.030611000024, "type": "decision", "n_candidates": 3, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2425", "backfill"]]}
+{"t": 15578.030611000024, "type": "decision", "n_candidates": 2, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-3420", "backfill"]]}
+{"t": 15579.030611000024, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756176103831-2063", "backfill"]]}
+{"t": 15731.541641759077, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9224", "backfill"]]}
+{"t": 16031.541641759077, "type": "decision", "n_candidates": 95, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7337", "backfill"]]}
+{"t": 16331.541641759077, "type": "decision", "n_candidates": 94, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9564", "backfill"]]}
+{"t": 16631.541641759075, "type": "decision", "n_candidates": 93, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6554", "backfill"]]}
+{"t": 16931.541641759075, "type": "decision", "n_candidates": 92, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5794", "backfill"]]}
+{"t": 17231.541641759075, "type": "decision", "n_candidates": 91, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5915", "backfill"]]}
+{"t": 17531.541641759075, "type": "decision", "n_candidates": 90, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8548", "backfill"]]}
+{"t": 17708.55031672838, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8107", "backfill"]]}
+{"t": 17713.55031672838, "type": "recovery", "task": "756094638917-8548", "retries": 2, "decision": "retry"}
+{"t": 18008.55031672838, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-1235", "backfill"]]}
+{"t": 18009.676336841614, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5209", "backfill"]]}
+{"t": 18014.676336841614, "type": "recovery", "task": "756110575422-1235", "retries": 0, "decision": "retry"}
+{"t": 18046.074934492543, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4230", "backfill"]]}
+{"t": 18051.074934492543, "type": "recovery", "task": "756094638917-5209", "retries": 0, "decision": "retry"}
+{"t": 18250.636513094185, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1383", "backfill"]]}
+{"t": 18255.636513094185, "type": "recovery", "task": "756094638917-4230", "retries": 0, "decision": "retry"}
+{"t": 18295.61351997824, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6172", "backfill"]]}
+{"t": 18300.61351997824, "type": "recovery", "task": "756094638917-1383", "retries": 0, "decision": "retry"}
+{"t": 18407.075154688588, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5081", "backfill"]]}
+{"t": 18412.075154688588, "type": "recovery", "task": "756094638917-6172", "retries": 0, "decision": "retry"}
+{"t": 18642.509519814346, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1895", "backfill"]]}
+{"t": 18647.509519814346, "type": "recovery", "task": "756094638917-5081", "retries": 0, "decision": "retry"}
+{"t": 18681.757080227162, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4477", "backfill"]]}
+{"t": 18686.757080227162, "type": "recovery", "task": "756094638917-1895", "retries": 0, "decision": "retry"}
+{"t": 18923.956833007433, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3357", "backfill"]]}
+{"t": 18928.956833007433, "type": "recovery", "task": "756094638917-4477", "retries": 0, "decision": "retry"}
+{"t": 19014.705261703326, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7943", "backfill"]]}
+{"t": 19019.705261703326, "type": "recovery", "task": "756094638917-3357", "retries": 0, "decision": "retry"}
+{"t": 19191.008050619523, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1844", "backfill"]]}
+{"t": 19196.008050619523, "type": "recovery", "task": "756094638917-7943", "retries": 0, "decision": "retry"}
+{"t": 19285.323334954788, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3723", "backfill"]]}
+{"t": 19290.323334954788, "type": "recovery", "task": "756094638917-1844", "retries": 0, "decision": "retry"}
+{"t": 19395.649999599573, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9144", "backfill"]]}
+{"t": 19400.649999599573, "type": "recovery", "task": "756094638917-3723", "retries": 0, "decision": "retry"}
+{"t": 19510.770607716277, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-72", "backfill"]]}
+{"t": 19515.770607716277, "type": "recovery", "task": "756094638917-9144", "retries": 0, "decision": "retry"}
+{"t": 19681.632218789262, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8548", "backfill"]]}
+{"t": 19686.632218789262, "type": "recovery", "task": "756094638917-72", "retries": 0, "decision": "retry"}
+{"t": 19981.632218789262, "type": "decision", "n_candidates": 89, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-1235", "backfill"]]}
+{"t": 19985.632218789262, "type": "decision", "n_candidates": 88, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5209", "backfill"]]}
+{"t": 20285.632218789262, "type": "decision", "n_candidates": 87, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4230", "backfill"]]}
+{"t": 20508.96911142841, "type": "decision", "n_candidates": 86, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1383", "backfill"]]}
+{"t": 20513.96911142841, "type": "recovery", "task": "756094638917-4230", "retries": 1, "decision": "retry"}
+{"t": 20808.96911142841, "type": "decision", "n_candidates": 87, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6172", "backfill"]]}
+{"t": 21108.96911142841, "type": "decision", "n_candidates": 86, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5081", "backfill"]]}
+{"t": 21408.96911142841, "type": "decision", "n_candidates": 86, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1895", "backfill"]]}
+{"t": 21708.96911142841, "type": "decision", "n_candidates": 85, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4477", "backfill"]]}
+{"t": 22008.96911142841, "type": "decision", "n_candidates": 84, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3357", "backfill"]]}
+{"t": 22240.67307031972, "type": "decision", "n_candidates": 83, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7943", "backfill"]]}
+{"t": 22245.67307031972, "type": "recovery", "task": "756094638917-3357", "retries": 1, "decision": "retry"}
+{"t": 22540.67307031972, "type": "decision", "n_candidates": 83, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1844", "backfill"]]}
+{"t": 22840.67307031972, "type": "decision", "n_candidates": 82, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3723", "backfill"]]}
+{"t": 23140.67307031972, "type": "decision", "n_candidates": 81, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9144", "backfill"]]}
+{"t": 23440.67307031972, "type": "decision", "n_candidates": 80, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-72", "backfill"]]}
+{"t": 23740.67307031972, "type": "decision", "n_candidates": 79, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4230", "backfill"]]}
+{"t": 24040.67307031972, "type": "decision", "n_candidates": 78, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["754872005672-500", "backfill"]]}
+{"t": 24131.209102846977, "type": "decision", "n_candidates": 77, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3357", "backfill"]]}
+{"t": 24136.209102846977, "type": "recovery", "task": "754872005672-500", "retries": 0, "decision": "retry"}
+{"t": 24431.209102846977, "type": "decision", "n_candidates": 77, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-427", "backfill"]]}
+{"t": 24434.359913219385, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4261", "backfill"]]}
+{"t": 24439.359913219385, "type": "recovery", "task": "756110575422-427", "retries": 0, "decision": "retry"}
+{"t": 24598.72237820885, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8723", "backfill"]]}
+{"t": 24603.72237820885, "type": "recovery", "task": "756094638917-4261", "retries": 0, "decision": "retry"}
+{"t": 24641.741813140645, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4890", "backfill"]]}
+{"t": 24646.741813140645, "type": "recovery", "task": "756094638917-8723", "retries": 0, "decision": "retry"}
+{"t": 24719.429443417463, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10759", "backfill"]]}
+{"t": 24724.429443417463, "type": "recovery", "task": "756094638917-4890", "retries": 0, "decision": "retry"}
+{"t": 24874.783105200877, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4556", "backfill"]]}
+{"t": 24879.783105200877, "type": "recovery", "task": "756094638917-10759", "retries": 0, "decision": "retry"}
+{"t": 24937.08071524863, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1500", "backfill"]]}
+{"t": 24942.08071524863, "type": "recovery", "task": "756094638917-4556", "retries": 0, "decision": "retry"}
+{"t": 25043.772492132954, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8811", "backfill"]]}
+{"t": 25048.772492132954, "type": "recovery", "task": "756094638917-1500", "retries": 0, "decision": "retry"}
+{"t": 25122.836639708956, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9290", "backfill"]]}
+{"t": 25127.836639708956, "type": "recovery", "task": "756094638917-8811", "retries": 0, "decision": "retry"}
+{"t": 25165.41986483156, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2453", "backfill"]]}
+{"t": 25170.41986483156, "type": "recovery", "task": "756094638917-9290", "retries": 0, "decision": "retry"}
+{"t": 25270.219715683757, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9258", "backfill"]]}
+{"t": 25275.219715683757, "type": "recovery", "task": "756094638917-2453", "retries": 0, "decision": "retry"}
+{"t": 25339.363431828082, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10022", "backfill"]]}
+{"t": 25344.363431828082, "type": "recovery", "task": "756094638917-9258", "retries": 0, "decision": "retry"}
+{"t": 25408.47109977895, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1749", "backfill"]]}
+{"t": 25413.47109977895, "type": "recovery", "task": "756094638917-10022", "retries": 0, "decision": "retry"}
+{"t": 25658.613557933146, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4528", "backfill"]]}
+{"t": 25663.613557933146, "type": "recovery", "task": "756094638917-1749", "retries": 0, "decision": "retry"}
+{"t": 25890.05977885195, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10918", "backfill"]]}
+{"t": 25895.05977885195, "type": "recovery", "task": "756094638917-4528", "retries": 0, "decision": "retry"}
+{"t": 26137.11920212764, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["754872005672-500", "backfill"]]}
+{"t": 26142.11920212764, "type": "recovery", "task": "756094638917-10918", "retries": 0, "decision": "retry"}
+{"t": 26437.11920212764, "type": "decision", "n_candidates": 76, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756110575422-427", "backfill"]]}
+{"t": 26441.11920212764, "type": "decision", "n_candidates": 75, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4261", "backfill"]]}
+{"t": 26741.11920212764, "type": "decision", "n_candidates": 74, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8723", "backfill"]]}
+{"t": 27041.11920212764, "type": "decision", "n_candidates": 73, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4890", "backfill"]]}
+{"t": 27341.11920212764, "type": "decision", "n_candidates": 72, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10759", "backfill"]]}
+{"t": 27546.565095988433, "type": "decision", "n_candidates": 71, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4556", "backfill"]]}
+{"t": 27551.565095988433, "type": "recovery", "task": "756094638917-10759", "retries": 1, "decision": "retry"}
+{"t": 27846.565095988433, "type": "decision", "n_candidates": 71, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1500", "backfill"]]}
+{"t": 28146.565095988433, "type": "decision", "n_candidates": 70, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8811", "backfill"]]}
+{"t": 28446.565095988433, "type": "decision", "n_candidates": 69, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9290", "backfill"]]}
+{"t": 28746.565095988433, "type": "decision", "n_candidates": 68, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2453", "backfill"]]}
+{"t": 29046.565095988433, "type": "decision", "n_candidates": 67, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9258", "backfill"]]}
+{"t": 29130.293095721718, "type": "decision", "n_candidates": 66, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10022", "backfill"]]}
+{"t": 29135.293095721718, "type": "recovery", "task": "756094638917-9258", "retries": 1, "decision": "retry"}
+{"t": 29430.293095721718, "type": "decision", "n_candidates": 66, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1749", "backfill"]]}
+{"t": 29730.293095721718, "type": "decision", "n_candidates": 65, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4528", "backfill"]]}
+{"t": 30030.293095721718, "type": "decision", "n_candidates": 64, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10918", "backfill"]]}
+{"t": 30330.293095721718, "type": "decision", "n_candidates": 63, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10759", "backfill"]]}
+{"t": 30630.293095721718, "type": "decision", "n_candidates": 62, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7824", "backfill"]]}
+{"t": 30875.59107365127, "type": "decision", "n_candidates": 61, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1536", "backfill"]]}
+{"t": 30880.59107365127, "type": "recovery", "task": "756094638917-7824", "retries": 0, "decision": "retry"}
+{"t": 31129.803082535538, "type": "decision", "n_candidates": 61, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9258", "backfill"]]}
+{"t": 31134.803082535538, "type": "recovery", "task": "756094638917-1536", "retries": 0, "decision": "retry"}
+{"t": 31429.803082535538, "type": "decision", "n_candidates": 61, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5642", "backfill"]]}
+{"t": 31621.47237351639, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10386", "backfill"]]}
+{"t": 31626.47237351639, "type": "recovery", "task": "756094638917-5642", "retries": 0, "decision": "retry"}
+{"t": 31882.536692092363, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1848", "backfill"]]}
+{"t": 31887.536692092363, "type": "recovery", "task": "756094638917-10386", "retries": 0, "decision": "retry"}
+{"t": 32056.00007700589, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2210", "backfill"]]}
+{"t": 32061.00007700589, "type": "recovery", "task": "756094638917-1848", "retries": 0, "decision": "retry"}
+{"t": 32239.202589937362, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3108", "backfill"]]}
+{"t": 32244.202589937362, "type": "recovery", "task": "756094638917-2210", "retries": 0, "decision": "retry"}
+{"t": 32477.96707281457, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5590", "backfill"]]}
+{"t": 32482.96707281457, "type": "recovery", "task": "756094638917-3108", "retries": 0, "decision": "retry"}
+{"t": 32632.3227708288, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2496", "backfill"]]}
+{"t": 32637.3227708288, "type": "recovery", "task": "756094638917-5590", "retries": 0, "decision": "retry"}
+{"t": 32860.26856577719, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7824", "backfill"]]}
+{"t": 32865.26856577719, "type": "recovery", "task": "756094638917-2496", "retries": 0, "decision": "retry"}
+{"t": 33160.26856577719, "type": "decision", "n_candidates": 60, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1536", "backfill"]]}
+{"t": 33460.26856577719, "type": "decision", "n_candidates": 59, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5642", "backfill"]]}
+{"t": 33519.82746062821, "type": "decision", "n_candidates": 58, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10593", "backfill"]]}
+{"t": 33524.82746062821, "type": "recovery", "task": "756094638917-5642", "retries": 1, "decision": "retry"}
+{"t": 33744.17432169678, "type": "decision", "n_candidates": 58, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10386", "backfill"]]}
+{"t": 33749.17432169678, "type": "recovery", "task": "756094638917-10593", "retries": 0, "decision": "retry"}
+{"t": 34044.17432169678, "type": "decision", "n_candidates": 58, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1848", "backfill"]]}
+{"t": 34344.17432169678, "type": "decision", "n_candidates": 57, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2210", "backfill"]]}
+{"t": 34644.17432169678, "type": "decision", "n_candidates": 56, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3108", "backfill"]]}
+{"t": 34944.17432169678, "type": "decision", "n_candidates": 55, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5590", "backfill"]]}
+{"t": 35244.17432169678, "type": "decision", "n_candidates": 54, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2496", "backfill"]]}
+{"t": 35544.17432169678, "type": "decision", "n_candidates": 53, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5642", "backfill"]]}
+{"t": 35844.17432169678, "type": "decision", "n_candidates": 52, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10593", "backfill"]]}
+{"t": 36144.17432169678, "type": "decision", "n_candidates": 51, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11343", "backfill"]]}
+{"t": 36245.30563961597, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3885", "backfill"]]}
+{"t": 36250.30563961597, "type": "recovery", "task": "756094638917-11343", "retries": 0, "decision": "retry"}
+{"t": 36344.5181187017, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4765", "backfill"]]}
+{"t": 36349.5181187017, "type": "recovery", "task": "756094638917-3885", "retries": 0, "decision": "retry"}
+{"t": 36530.70667292174, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9169", "backfill"]]}
+{"t": 36535.70667292174, "type": "recovery", "task": "756094638917-4765", "retries": 0, "decision": "retry"}
+{"t": 36650.979777589106, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4464", "backfill"]]}
+{"t": 36655.979777589106, "type": "recovery", "task": "756094638917-9169", "retries": 0, "decision": "retry"}
+{"t": 36701.41093929521, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6578", "backfill"]]}
+{"t": 36706.41093929521, "type": "recovery", "task": "756094638917-4464", "retries": 0, "decision": "retry"}
+{"t": 36846.50656421462, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11560", "backfill"]]}
+{"t": 36851.50656421462, "type": "recovery", "task": "756094638917-6578", "retries": 0, "decision": "retry"}
+{"t": 37023.653409095015, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10360", "backfill"]]}
+{"t": 37028.653409095015, "type": "recovery", "task": "756094638917-11560", "retries": 0, "decision": "retry"}
+{"t": 37285.19914875687, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-599", "backfill"]]}
+{"t": 37290.19914875687, "type": "recovery", "task": "756094638917-10360", "retries": 0, "decision": "retry"}
+{"t": 37421.7954583154, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1872", "backfill"]]}
+{"t": 37426.7954583154, "type": "recovery", "task": "756094638917-599", "retries": 0, "decision": "retry"}
+{"t": 37532.75335263897, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4642", "backfill"]]}
+{"t": 37537.75335263897, "type": "recovery", "task": "756094638917-1872", "retries": 0, "decision": "retry"}
+{"t": 37685.2629860468, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9677", "backfill"]]}
+{"t": 37690.2629860468, "type": "recovery", "task": "756094638917-4642", "retries": 0, "decision": "retry"}
+{"t": 37798.22216624094, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8035", "backfill"]]}
+{"t": 37803.22216624094, "type": "recovery", "task": "756094638917-9677", "retries": 0, "decision": "retry"}
+{"t": 38025.11803475883, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9163", "backfill"]]}
+{"t": 38030.11803475883, "type": "recovery", "task": "756094638917-8035", "retries": 0, "decision": "retry"}
+{"t": 38120.36247125241, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11343", "backfill"]]}
+{"t": 38125.36247125241, "type": "recovery", "task": "756094638917-9163", "retries": 0, "decision": "retry"}
+{"t": 38420.36247125241, "type": "decision", "n_candidates": 50, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3885", "backfill"]]}
+{"t": 38720.36247125241, "type": "decision", "n_candidates": 49, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4765", "backfill"]]}
+{"t": 38936.24560117446, "type": "decision", "n_candidates": 48, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9169", "backfill"]]}
+{"t": 38941.24560117446, "type": "recovery", "task": "756094638917-4765", "retries": 1, "decision": "retry"}
+{"t": 39236.24560117446, "type": "decision", "n_candidates": 48, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4464", "backfill"]]}
+{"t": 39536.24560117446, "type": "decision", "n_candidates": 47, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6578", "backfill"]]}
+{"t": 39836.24560117446, "type": "decision", "n_candidates": 46, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11560", "backfill"]]}
+{"t": 40136.24560117446, "type": "decision", "n_candidates": 45, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10360", "backfill"]]}
+{"t": 40436.24560117446, "type": "decision", "n_candidates": 44, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-599", "backfill"]]}
+{"t": 40736.24560117446, "type": "decision", "n_candidates": 43, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1872", "backfill"]]}
+{"t": 40787.54842528138, "type": "decision", "n_candidates": 42, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4642", "backfill"]]}
+{"t": 40792.54842528138, "type": "recovery", "task": "756094638917-1872", "retries": 1, "decision": "retry"}
+{"t": 40833.11708775701, "type": "decision", "n_candidates": 42, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9677", "backfill"]]}
+{"t": 40838.11708775701, "type": "recovery", "task": "756094638917-4642", "retries": 1, "decision": "retry"}
+{"t": 41133.11708775701, "type": "decision", "n_candidates": 42, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8035", "backfill"]]}
+{"t": 41433.11708775701, "type": "decision", "n_candidates": 41, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9163", "backfill"]]}
+{"t": 41733.11708775701, "type": "decision", "n_candidates": 40, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4765", "backfill"]]}
+{"t": 42033.11708775701, "type": "decision", "n_candidates": 39, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10375", "backfill"]]}
+{"t": 42264.45710573832, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6428", "backfill"]]}
+{"t": 42269.45710573832, "type": "recovery", "task": "756094638917-10375", "retries": 0, "decision": "retry"}
+{"t": 42324.66172093417, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9831", "backfill"]]}
+{"t": 42329.66172093417, "type": "recovery", "task": "756094638917-6428", "retries": 0, "decision": "retry"}
+{"t": 42465.43472917255, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5595", "backfill"]]}
+{"t": 42470.43472917255, "type": "recovery", "task": "756094638917-9831", "retries": 0, "decision": "retry"}
+{"t": 42603.525739271274, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1872", "backfill"]]}
+{"t": 42608.525739271274, "type": "recovery", "task": "756094638917-5595", "retries": 0, "decision": "retry"}
+{"t": 42903.525739271274, "type": "decision", "n_candidates": 38, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4642", "backfill"]]}
+{"t": 43203.525739271274, "type": "decision", "n_candidates": 37, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6565", "backfill"]]}
+{"t": 43272.45677688884, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2602", "backfill"]]}
+{"t": 43277.45677688884, "type": "recovery", "task": "756094638917-6565", "retries": 0, "decision": "retry"}
+{"t": 43357.22864127153, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8989", "backfill"]]}
+{"t": 43362.22864127153, "type": "recovery", "task": "756094638917-2602", "retries": 0, "decision": "retry"}
+{"t": 43538.535134618105, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1129", "backfill"]]}
+{"t": 43543.535134618105, "type": "recovery", "task": "756094638917-8989", "retries": 0, "decision": "retry"}
+{"t": 43621.310939762, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5400", "backfill"]]}
+{"t": 43626.310939762, "type": "recovery", "task": "756094638917-1129", "retries": 0, "decision": "retry"}
+{"t": 43780.36216669574, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9011", "backfill"]]}
+{"t": 43785.36216669574, "type": "recovery", "task": "756094638917-5400", "retries": 0, "decision": "retry"}
+{"t": 43812.629107926, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5472", "backfill"]]}
+{"t": 43817.629107926, "type": "recovery", "task": "756094638917-9011", "retries": 0, "decision": "retry"}
+{"t": 43843.288899802814, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8191", "backfill"]]}
+{"t": 43848.288899802814, "type": "recovery", "task": "756094638917-5472", "retries": 0, "decision": "retry"}
+{"t": 43927.85088279432, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5851", "backfill"]]}
+{"t": 43932.85088279432, "type": "recovery", "task": "756094638917-8191", "retries": 0, "decision": "retry"}
+{"t": 44099.82799516382, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10375", "backfill"]]}
+{"t": 44104.82799516382, "type": "recovery", "task": "756094638917-5851", "retries": 0, "decision": "retry"}
+{"t": 44303.87357483988, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6428", "backfill"]]}
+{"t": 44308.87357483988, "type": "recovery", "task": "756094638917-10375", "retries": 1, "decision": "retry"}
+{"t": 44603.87357483988, "type": "decision", "n_candidates": 36, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9831", "backfill"]]}
+{"t": 44903.87357483988, "type": "decision", "n_candidates": 35, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5595", "backfill"]]}
+{"t": 45203.87357483988, "type": "decision", "n_candidates": 34, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6565", "backfill"]]}
+{"t": 45503.87357483988, "type": "decision", "n_candidates": 33, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2602", "backfill"]]}
+{"t": 45803.87357483988, "type": "decision", "n_candidates": 32, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8989", "backfill"]]}
+{"t": 46103.87357483988, "type": "decision", "n_candidates": 31, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1129", "backfill"]]}
+{"t": 46403.87357483988, "type": "decision", "n_candidates": 30, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5400", "backfill"]]}
+{"t": 46703.87357483988, "type": "decision", "n_candidates": 29, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9011", "backfill"]]}
+{"t": 47003.87357483988, "type": "decision", "n_candidates": 28, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5472", "backfill"]]}
+{"t": 47303.87357483988, "type": "decision", "n_candidates": 27, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8191", "backfill"]]}
+{"t": 47603.87357483988, "type": "decision", "n_candidates": 26, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5851", "backfill"]]}
+{"t": 47903.87357483988, "type": "decision", "n_candidates": 25, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10375", "backfill"]]}
+{"t": 48203.87357483988, "type": "decision", "n_candidates": 24, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8306", "backfill"]]}
+{"t": 48254.46184742888, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5360", "backfill"]]}
+{"t": 48259.46184742888, "type": "recovery", "task": "756094638917-8306", "retries": 0, "decision": "retry"}
+{"t": 48524.43357423998, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7441", "backfill"]]}
+{"t": 48529.43357423998, "type": "recovery", "task": "756094638917-5360", "retries": 0, "decision": "retry"}
+{"t": 48705.304053225846, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6411", "backfill"]]}
+{"t": 48710.304053225846, "type": "recovery", "task": "756094638917-7441", "retries": 0, "decision": "retry"}
+{"t": 48877.81202507856, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6459", "backfill"]]}
+{"t": 48882.81202507856, "type": "recovery", "task": "756094638917-6411", "retries": 0, "decision": "retry"}
+{"t": 49002.529296242, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2530", "backfill"]]}
+{"t": 49007.529296242, "type": "recovery", "task": "756094638917-6459", "retries": 0, "decision": "retry"}
+{"t": 49185.0550702643, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1547", "backfill"]]}
+{"t": 49190.0550702643, "type": "recovery", "task": "756094638917-2530", "retries": 0, "decision": "retry"}
+{"t": 49391.002040324376, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-975", "backfill"]]}
+{"t": 49396.002040324376, "type": "recovery", "task": "756094638917-1547", "retries": 0, "decision": "retry"}
+{"t": 49518.644174782035, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7915", "backfill"]]}
+{"t": 49523.644174782035, "type": "recovery", "task": "756094638917-975", "retries": 0, "decision": "retry"}
+{"t": 49695.60355776985, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3742", "backfill"]]}
+{"t": 49700.60355776985, "type": "recovery", "task": "756094638917-7915", "retries": 0, "decision": "retry"}
+{"t": 49798.5435734255, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11696", "backfill"]]}
+{"t": 49803.5435734255, "type": "recovery", "task": "756094638917-3742", "retries": 0, "decision": "retry"}
+{"t": 49834.71284222203, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2256", "backfill"]]}
+{"t": 49839.71284222203, "type": "recovery", "task": "756094638917-11696", "retries": 0, "decision": "retry"}
+{"t": 50025.00581759753, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7186", "backfill"]]}
+{"t": 50030.00581759753, "type": "recovery", "task": "756094638917-2256", "retries": 0, "decision": "retry"}
+{"t": 50260.64657372232, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-8306", "backfill"]]}
+{"t": 50265.64657372232, "type": "recovery", "task": "756094638917-7186", "retries": 0, "decision": "retry"}
+{"t": 50560.64657372232, "type": "decision", "n_candidates": 23, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5360", "backfill"]]}
+{"t": 50860.64657372232, "type": "decision", "n_candidates": 22, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7441", "backfill"]]}
+{"t": 51160.64657372232, "type": "decision", "n_candidates": 21, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6411", "backfill"]]}
+{"t": 51413.500772465966, "type": "decision", "n_candidates": 20, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6459", "backfill"]]}
+{"t": 51418.500772465966, "type": "recovery", "task": "756094638917-6411", "retries": 1, "decision": "retry"}
+{"t": 51713.500772465966, "type": "decision", "n_candidates": 20, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2530", "backfill"]]}
+{"t": 51805.80634552271, "type": "decision", "n_candidates": 19, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1547", "backfill"]]}
+{"t": 51810.80634552271, "type": "recovery", "task": "756094638917-2530", "retries": 1, "decision": "retry"}
+{"t": 52105.80634552271, "type": "decision", "n_candidates": 19, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-975", "backfill"]]}
+{"t": 52405.80634552271, "type": "decision", "n_candidates": 18, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7915", "backfill"]]}
+{"t": 52705.80634552271, "type": "decision", "n_candidates": 17, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-3742", "backfill"]]}
+{"t": 53005.80634552271, "type": "decision", "n_candidates": 16, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11696", "backfill"]]}
+{"t": 53305.80634552271, "type": "decision", "n_candidates": 15, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2256", "backfill"]]}
+{"t": 53605.80634552271, "type": "decision", "n_candidates": 14, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7186", "backfill"]]}
+{"t": 53750.824318090774, "type": "decision", "n_candidates": 13, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6411", "backfill"]]}
+{"t": 53755.824318090774, "type": "recovery", "task": "756094638917-7186", "retries": 1, "decision": "retry"}
+{"t": 54050.824318090774, "type": "decision", "n_candidates": 13, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2530", "backfill"]]}
+{"t": 54207.053807132776, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4914", "backfill"]]}
+{"t": 54212.053807132776, "type": "recovery", "task": "756094638917-2530", "retries": 2, "decision": "retry"}
+{"t": 54444.85022165106, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9873", "backfill"]]}
+{"t": 54449.85022165106, "type": "recovery", "task": "756094638917-4914", "retries": 0, "decision": "retry"}
+{"t": 54589.05031637974, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5477", "backfill"]]}
+{"t": 54594.05031637974, "type": "recovery", "task": "756094638917-9873", "retries": 0, "decision": "retry"}
+{"t": 54842.606565081565, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6727", "backfill"]]}
+{"t": 54847.606565081565, "type": "recovery", "task": "756094638917-5477", "retries": 0, "decision": "retry"}
+{"t": 54898.64096819693, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10634", "backfill"]]}
+{"t": 54903.64096819693, "type": "recovery", "task": "756094638917-6727", "retries": 0, "decision": "retry"}
+{"t": 55141.422890580136, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11875", "backfill"]]}
+{"t": 55146.422890580136, "type": "recovery", "task": "756094638917-10634", "retries": 0, "decision": "retry"}
+{"t": 55228.97377700844, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7148", "backfill"]]}
+{"t": 55233.97377700844, "type": "recovery", "task": "756094638917-11875", "retries": 0, "decision": "retry"}
+{"t": 55493.852901097984, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5007", "backfill"]]}
+{"t": 55498.852901097984, "type": "recovery", "task": "756094638917-7148", "retries": 0, "decision": "retry"}
+{"t": 55570.826901909706, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7186", "backfill"]]}
+{"t": 55575.826901909706, "type": "recovery", "task": "756094638917-5007", "retries": 0, "decision": "retry"}
+{"t": 55870.826901909706, "type": "decision", "n_candidates": 12, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1444", "backfill"]]}
+{"t": 56126.40688981383, "type": "decision", "n_candidates": 11, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-2530", "backfill"]]}
+{"t": 56131.40688981383, "type": "recovery", "task": "756094638917-1444", "retries": 0, "decision": "retry"}
+{"t": 56426.40688981383, "type": "decision", "n_candidates": 11, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-4914", "backfill"]]}
+{"t": 56726.40688981383, "type": "decision", "n_candidates": 10, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-9873", "backfill"]]}
+{"t": 57026.40688981383, "type": "decision", "n_candidates": 9, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5477", "backfill"]]}
+{"t": 57326.40688981383, "type": "decision", "n_candidates": 8, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-6727", "backfill"]]}
+{"t": 57626.40688981383, "type": "decision", "n_candidates": 7, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-10634", "backfill"]]}
+{"t": 57926.40688981383, "type": "decision", "n_candidates": 6, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-11875", "backfill"]]}
+{"t": 58226.40688981383, "type": "decision", "n_candidates": 5, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-7148", "backfill"]]}
+{"t": 58526.40688981383, "type": "decision", "n_candidates": 4, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-5007", "backfill"]]}
+{"t": 58826.40688981383, "type": "decision", "n_candidates": 3, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1444", "backfill"]]}
+{"t": 58973.95013691752, "type": "decision", "n_candidates": 2, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["710255342622-1643", "backfill"]]}
+{"t": 58978.95013691752, "type": "recovery", "task": "756094638917-1444", "retries": 1, "decision": "retry"}
+{"t": 59238.97611184505, "type": "decision", "n_candidates": 2, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["754423372738-2207", "backfill"]]}
+{"t": 59239.97611184505, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["756094638917-1444", "backfill"]]}
+{"t": 59243.97611184505, "type": "recovery", "task": "710255342622-1643", "retries": 0, "decision": "retry"}
+{"t": 59539.97611184505, "type": "decision", "n_candidates": 1, "latency_s": 0.0, "llm": null, "rejected": [], "executed": [["710255342622-1643", "backfill"]]}
