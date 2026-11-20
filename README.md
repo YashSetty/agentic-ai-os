@@ -92,6 +92,33 @@ python analyze_grid.py results/grid/per_run.csv > results/grid/analysis.txt
 `results/grid/analysis.txt` gives means per load (0.7 / 0.9 / 1.1; 8 windows x 3 seeds) and paired differences
 with 95% window-cluster bootstrap CIs.
 
+## Learned comparator: MAS-RL (`results/masrl/`, paper Sections 5.5 and 6.4, Supplement S2)
+
+`agentic_os/masrl.py` keeps the whole control plane (candidate set, policy gate P1–P4, recovery agent,
+safe backfill) and replaces only the LLM ranking with a learned linear policy over 12 state x 10 candidate
+features (120 parameters). `RandomRankScheduler` is the uninformed control on the same interface.
+
+- `scripts/train_masrl.py` trains with REINFORCE (Plackett–Luce rankings, Adam, 200 updates x 16 episodes,
+  reward -J with equal weights, `--weights` for alternatives). Training/validation windows end before each
+  cell's test window (32 / 16 windows, recorded in `window_split.json`); failure seeds 1001–1050 (train) and
+  901–902 (validation). The lowest-validation-J checkpoint is frozen.
+- `scripts/eval_masrl.py` runs frozen policies (and `random-rank`) on the 504-run grid design.
+- `analyze_masrl.py` reports means by load, test-set J, paired differences with window-cluster CIs and
+  Wilcoxon tests against the no-LLM control plane, gated priority and random ranking.
+
+```bash
+# trace.pkl is optional (a cached load_trace() DataFrame); about 50 min per seed on one CPU core
+for s in 1 2 3 4 5; do python scripts/train_masrl.py --config config.grid.json --seed $s --out results/masrl/train; done
+python scripts/eval_masrl.py --config config.grid.json --policies results/masrl/train --out results/masrl/test
+python analyze_masrl.py results/grid/per_run.csv results/masrl/test/per_run.jsonl > results/masrl/test/analysis.txt
+# reward-weight sensitivity (3 seeds each): --weights 0.4,0.15,0.15,0.15,0.15 -> train_latency,
+#   0.15,0.15,0.4,0.15,0.15 -> train_recovery; evaluate with --prefix mas-rl-lat / mas-rl-rec --no-random
+```
+
+Test-set J over all loads (lower is better): no-LLM control plane 0.453, MAS-RL 0.469 (seeds 0.458–0.506;
+seed 4 never improved on its initial policy), latency-weighted 0.467, recovery-weighted 0.466, random ranking
+0.504, gated priority 0.574.
+
 ### Exact replay without Ollama
 
 `scripts/replay_without_ollama.py` replays the LLM runs purely from the response cache (any cache miss raises an error):
@@ -160,5 +187,5 @@ subject to the Meta Llama 3 Community License. Cite via `CITATION.cff`.
 
 ## Not yet implemented
 
-- MAS-RL (matched reinforcement-learning comparator) described in the paper.
+- Richer learned policies (non-linear function classes, other action spaces) than the linear MAS-RL ranker.
 - Multi-node placement / fragmentation (the cluster is one pooled resource).
