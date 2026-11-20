@@ -24,7 +24,7 @@ prefix = sys.argv[3] if len(sys.argv) > 3 else "mas-rl"
 seeds = sorted(s for s in ml.strategy.unique() if s.startswith(prefix + "-s"))
 K = ["window_id", "load", "seed"]
 agg = ml[ml.strategy.isin(seeds)].groupby(K)[M].mean().reset_index().assign(strategy=prefix)
-df = pd.concat([grid, ml[~ml.strategy.isin(seeds)], agg], ignore_index=True)
+df = pd.concat([grid, ml, agg], ignore_index=True)
 rng = np.random.default_rng(0)
 
 
@@ -60,7 +60,8 @@ for load, g in df.groupby("load"):
     t["J"] = J(g)
     print(f"\nload {load}\n" + t.round(3).to_string())
 allJ = J(df[df.strategy.isin(order)])
-print("\n== Test-set J over all loads (lower is better)\n" + allJ.reindex(order).round(4).to_string())
+print("\n== Test-set J over all loads (lower is better; equal weights)\n" + allJ.reindex([s for s in order if s in allJ.index]).round(4).to_string())
+print("\n== Overall means\n" + df[df.strategy.isin(order)].groupby("strategy")[M].mean().reindex([s for s in order if s in allJ.index]).round(3).to_string())
 
 pairs = [(prefix, "agentic-nollm"), (prefix, "priority-gated"), (prefix, "random-rank"),
          ("random-rank", "agentic-nollm")]
@@ -68,6 +69,8 @@ print("\n== Paired differences A - B: mean [95% window-cluster CI] (Wilcoxon p o
 for load, g in list(df.groupby("load")) + [("all", df)]:
     print(f"\nload {load}")
     for a, b in pairs:
+        if not {a, b} <= set(g.strategy):
+            continue
         d = paired(g, a, b)
         cells = []
         for m in M:
