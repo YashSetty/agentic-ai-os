@@ -4,3 +4,4 @@ __pycache__/
 # Only the results reported in the paper are versioned.
 results/*
 !results/medium/
+!results/grid/

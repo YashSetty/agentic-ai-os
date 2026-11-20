@@ -27,6 +27,7 @@ import numpy as np
 import pandas as pd
 
 from agentic_os import metrics
+from agentic_os.ablations import FIFOGated, NoLLMNoGate, NoLLMNoRecoveryOrder, PriorityGated
 from agentic_os.agentic import AgenticScheduler
 from agentic_os.llm import OllamaClient
 from agentic_os.policy import PolicyEngine
@@ -95,6 +96,14 @@ def make_scheduler(name, cfg, client, audit_path):
         return AgenticScheduler(cfg, policy, client, use_llm=True, audit_path=audit_path)
     if name == "agentic-nollm":
         return AgenticScheduler(cfg, policy, None, use_llm=False, audit_path=audit_path)
+    if name == "fifo-gated":
+        return FIFOGated(policy)
+    if name == "priority-gated":
+        return PriorityGated(policy)
+    if name == "nollm-noreco":
+        return NoLLMNoRecoveryOrder(cfg, policy, audit_path=audit_path)
+    if name == "nollm-nogate":
+        return NoLLMNoGate(cfg, policy, audit_path=audit_path)
     raise ValueError(name)
 
 

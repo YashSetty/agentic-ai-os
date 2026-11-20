@@ -75,6 +75,34 @@ removes any agentic run whose audit log still shows a call above 60 s so that a 
 (config, dataset SHA-256, LLM model digest, versions), `llm_cache.jsonl` (every prompt's
 response and measured latency), `audit/*.jsonl` (every decision, rejection and execution).
 
+## Policy-matched baselines and ablations (`results/grid/`, paper Section 6.4)
+
+Additional strategies (`agentic_os/ablations.py`), all run on the same windows, capacities and failure realisations:
+
+- `fifo-gated`, `priority-gated` — the conventional orders with the same policy engine (P1–P4) and retry budget as the Agentic AI OS, so the comparison with the control plane is policy-matched.
+- `nollm-noreco` — the no-LLM control plane without its recovery-first ordering.
+- `nollm-nogate` — the no-LLM control plane without the policy gate (starts are audited only).
+
+```bash
+python run_experiment.py --config config.grid.json --out results/grid \
+  --strategies fifo,priority,fifo-gated,priority-gated,agentic-nollm,nollm-noreco,nollm-nogate   # 504 runs, a few minutes, no LLM
+python analyze_grid.py results/grid/per_run.csv > results/grid/analysis.txt
+```
+
+`results/grid/analysis.txt` gives means per load (0.7 / 0.9 / 1.1; 8 windows x 3 seeds) and paired differences
+with 95% window-cluster bootstrap CIs.
+
+### Exact replay without Ollama
+
+`scripts/replay_without_ollama.py` replays the LLM runs purely from the response cache (any cache miss raises an error):
+
+```bash
+mkdir -p results/replay && cp results/medium/llm_cache.jsonl results/replay/
+python scripts/replay_without_ollama.py . --config config.medium.json --out results/replay
+```
+
+This reproduces all 32 runs in `results/medium/per_run.csv` exactly.
+
 ## Method details and assumptions
 
 **Trace → tasks.** One task per `(collection_id, instance_index)`; arrival = event `time`;
