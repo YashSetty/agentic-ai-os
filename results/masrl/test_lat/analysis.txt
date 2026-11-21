@@ -1,0 +1,107 @@
+== Means by load (24 runs per cell; mas-rl = mean of 3 training seeds)
+
+load 0.7000000000000001
+                avg_latency_s  util_pct  avg_recovery_s  violation_rate_pct  fairness_jain      J
+strategy                                                                                         
+priority-gated       4397.902    41.384        1361.070                 0.0          0.726  0.572
+agentic-nollm        4648.110    42.129         385.937                 0.0          0.725  0.442
+mas-rl-lat           4740.654    41.862         401.472                 0.0          0.727  0.453
+mas-rl-lat-s1        4746.242    41.937         379.803                 0.0          0.729  0.448
+mas-rl-lat-s2        4736.878    41.586         389.886                 0.0          0.728  0.452
+mas-rl-lat-s3        4738.843    42.063         434.726                 0.0          0.723  0.458
+
+load 0.9
+                avg_latency_s  util_pct  avg_recovery_s  violation_rate_pct  fairness_jain      J
+strategy                                                                                         
+priority-gated       4715.367    40.572        2334.788                 0.0          0.722  0.574
+agentic-nollm        4460.156    40.576         419.086                 0.0          0.724  0.446
+mas-rl-lat           4451.724    40.804         498.237                 0.0          0.727  0.464
+mas-rl-lat-s1        4412.083    40.839         468.548                 0.0          0.730  0.458
+mas-rl-lat-s2        4484.342    40.781         485.575                 0.0          0.723  0.466
+mas-rl-lat-s3        4458.747    40.791         540.588                 0.0          0.726  0.466
+
+load 1.1
+                avg_latency_s  util_pct  avg_recovery_s  violation_rate_pct  fairness_jain      J
+strategy                                                                                         
+priority-gated       7155.154    42.417        2400.601                 0.0          0.699  0.575
+agentic-nollm        8533.842    42.421         512.873                 0.0          0.703  0.470
+mas-rl-lat           8301.834    42.271         573.432                 0.0          0.705  0.483
+mas-rl-lat-s1        8224.091    42.277         568.064                 0.0          0.709  0.481
+mas-rl-lat-s2        8216.093    42.167         531.597                 0.0          0.709  0.475
+mas-rl-lat-s3        8465.317    42.368         620.634                 0.0          0.698  0.492
+
+== Test-set J over all loads (lower is better; equal weights)
+priority-gated    0.5739
+agentic-nollm     0.4528
+mas-rl-lat        0.4665
+mas-rl-lat-s1     0.4627
+mas-rl-lat-s2     0.4645
+mas-rl-lat-s3     0.4723
+
+== Overall means
+                avg_latency_s  util_pct  avg_recovery_s  violation_rate_pct  fairness_jain
+strategy                                                                                  
+priority-gated       5422.807    41.458        2032.153                 0.0          0.716
+agentic-nollm        5880.703    41.708         439.299                 0.0          0.717
+mas-rl-lat           5831.404    41.646         491.047                 0.0          0.719
+mas-rl-lat-s1        5794.139    41.684         472.138                 0.0          0.723
+mas-rl-lat-s2        5812.438    41.511         469.019                 0.0          0.720
+mas-rl-lat-s3        5887.635    41.741         531.983                 0.0          0.716
+
+== Paired differences A - B: mean [95% window-cluster CI] (Wilcoxon p on 8 window means)
+
+load 0.7000000000000001
+  mas-rl-lat - agentic-nollm:
+    lat=+92.54[-16.95,+233.30] p=0.578 lower_in=4/8
+    util=-0.27[-0.56,-0.04] p=0.297 lower_in=5/8
+    rec=+15.53[+5.48,+27.96] p=0.031 lower_in=1/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.00,+0.00] p=0.461 lower_in=3/8
+  mas-rl-lat - priority-gated:
+    lat=+342.75[-251.49,+1363.70] p=0.297 lower_in=6/8
+    util=+0.48[+0.00,+1.38] p=0.156 lower_in=2/8
+    rec=-959.60[-2597.20,-89.47] p=0.016 lower_in=7/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.01,+0.01] p=0.641 lower_in=3/8
+
+load 0.9
+  mas-rl-lat - agentic-nollm:
+    lat=-8.43[-104.57,+85.12] p=0.578 lower_in=5/8
+    util=+0.23[-0.00,+0.63] p=0.383 lower_in=4/8
+    rec=+79.15[+14.46,+163.28] p=0.016 lower_in=0/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.00,+0.01] p=0.195 lower_in=2/8
+  mas-rl-lat - priority-gated:
+    lat=-263.64[-647.99,+0.09] p=0.109 lower_in=6/8
+    util=+0.23[-0.00,+0.57] p=0.461 lower_in=4/8
+    rec=-1836.55[-5368.85,-17.58] p=0.078 lower_in=6/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.00,+0.01] p=0.195 lower_in=2/8
+
+load 1.1
+  mas-rl-lat - agentic-nollm:
+    lat=-232.01[-648.56,-9.55] p=0.078 lower_in=6/8
+    util=-0.15[-0.44,+0.01] p=0.461 lower_in=5/8
+    rec=+60.56[+12.88,+118.87] p=0.016 lower_in=0/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.01,+0.01] p=0.250 lower_in=2/8
+  mas-rl-lat - priority-gated:
+    lat=+1146.68[-209.23,+3728.41] p=0.250 lower_in=6/8
+    util=-0.15[-0.76,+0.32] p=1.000 lower_in=4/8
+    rec=-1827.17[-5388.54,+5.89] p=0.156 lower_in=6/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.01[-0.00,+0.02] p=0.195 lower_in=2/8
+
+load all
+  mas-rl-lat - agentic-nollm:
+    lat=-49.30[-163.10,+30.70] p=0.461 lower_in=5/8
+    util=-0.06[-0.22,+0.05] p=0.812 lower_in=4/8
+    rec=+51.75[+12.59,+96.27] p=0.016 lower_in=0/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.00,+0.01] p=0.195 lower_in=2/8
+  mas-rl-lat - priority-gated:
+    lat=+408.60[-212.34,+1508.04] p=0.383 lower_in=5/8
+    util=+0.19[-0.16,+0.71] p=1.000 lower_in=4/8
+    rec=-1541.11[-4444.25,-43.05] p=0.031 lower_in=6/8
+    viol=+0.00[+0.00,+0.00] p=nan lower_in=0/8
+    jain=+0.00[-0.00,+0.01] p=0.250 lower_in=2/8
